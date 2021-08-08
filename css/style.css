@@ -1,0 +1,124 @@
+body {
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.4;
+}
+
+video {
+  margin-top: 0px;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#clock {
+  text-shadow: 2px 2px white;
+  color: hotpink;
+  font-weight: bolder;
+}
+
+.clock {
+  position: relative;
+  font-size: 65px;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 150px;
+  margin: auto;
+  width: fit-content;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#todoTitle {
+  font-size: 40px;
+  width: fit-content;
+  top: 50px;
+  left: 45px;
+  position: absolute;
+}
+.todo {
+  color: hotpink;
+  border-style: solid;
+  border-width: 5px;
+  border-color: hotpink;
+  border-radius: 8px;
+  margin: auto;
+  background-color: white;
+  top: 100px;
+  left: 60px;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+}
+
+.greeting input {
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  background-color: white;
+  border: 15px solid hotpink;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.greeting {
+  color: ivory;
+  text-shadow: 3px 3px hotpink;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  margin: 50px auto auto auto;
+  width: fit-content;
+}
+
+#quote {
+  position: relative;
+  color: gray;
+  text-align: center;
+  margin: 150px auto auto auto;
+  width: 650px;
+}
+
+#weather {
+  color: hotpink;
+  text-shadow: 1px 1px white;
+  font-size: 20px;
+  right: 16px;
+  top: 100px;
+  margin: auto;
+  width: 300px;
+  position: absolute;
+}
+
+#todo-form input {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  border: 1px solid hotpink;
+  padding-left: 55px;
+}
+
+#randomBox {
+  color: white;
+  text-shadow: 2px 2px hotpink;
+  border-radius: 30px;
+  position: fixed;
+  top: 150px;
+  margin: auto;
+  right: 100px;
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+  width: fit-content;
+}

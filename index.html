@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JUNGHEE WORLD</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+      * {
+        font-family: "Jua", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body id="bd">
+    <div class="bg">
+      <video
+        preload="auto"
+        autoplay="true"
+        loop="loop"
+        muted="muted"
+        volume="0"
+      >
+        <source src="video/movies.mp4" />
+      </video>
+    </div>
+    <div class="clock">
+      <h2 id="clock">00:00:00</h2>
+    </div>
+    <div id="todoTitle">
+      <span>📒TO DO LIST</span>
+    </div>
+    <div class="todo">
+      <form id="todo-form">
+        <input type="text" required placeholder="할일을 적어보세요" />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div id="randomBox"></div>
+    <div id="weather">
+      <span id="location"></span>
+      <br />
+      <span id="cloud"></span>
+      <br />
+      <span id="temp"></span>
+    </div>
+    <div class="greeting">
+      <form id="login-form" class="hidden">
+        <input type="text" placeholder="이름을 써주세요" />
+      </form>
+      <h2 id="greeting" class="hidden"></h2>
+      <h3 id="greetname" class="hidden"></h3>
+    </div>
+    <div id="quote">
+      <span></span><br />
+
+      <span></span>
+    </div>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/randomimage.js"></script>
+  </body>
+</html>
